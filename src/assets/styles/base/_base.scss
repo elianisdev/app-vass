@@ -1,0 +1,34 @@
+@import "@fontsource/questrial";
+
+body {
+  font-family: "Questrial", sans-serif !important;
+  font-size: 16px !important;
+}
+
+// For Vue Components
+:root {
+  --site-color-primary: #ff5672;
+  --site-color-secondary: #ccc;
+  --site-color-default: #fff;
+  --site-color-gray: #707070;
+  --site-color-gray-light: #c3d0d8;
+}
+
+// Local Styles
+$site-color-primary: var(--site-color-primary);
+$site-color-secondary: var(--site-color-secondary);
+$site-color-default: var(--site-color-default);
+$site-color-font: var(--site-color-gray);
+$site-color-font-light: var(--site-color-gray-light);
+
+.btn-white {
+  background-color: $site-color-default;
+  color: $site-color-primary;
+  border-radius: 0;
+}
+
+.btn-pink {
+  background-color: $site-color-primary;
+  color: $site-color-default;
+  border-radius: 0;
+}

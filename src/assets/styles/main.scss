@@ -1,0 +1,41 @@
+@import "bootstrap/dist/css/bootstrap.css";
+@import "bootstrap-vue-3/dist/bootstrap-vue-3.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import 'base/base';
+@import 'base/head';
+@import 'base/carousel';
+@import 'base/images';
+@import 'base/footer';
+
+.color-primary {
+  color: $site-color-primary !important;
+}
+
+.color-light {
+  color: $site-color-font-light !important;
+}
+
+.section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card-image:nth-child(even) {
+  height: 450px;
+}
+
+.card-image:nth-child(odd) {
+  height: 250px;
+}
+
+.card-image:nth-child(2n+2) {
+    margin-top: -200px;
+}
+
+.card-image:nth-child(2) {
+  margin-top: 0;
+}
+
+.card-image:nth-child(6n+2) {
+  margin-top: 0;
+}

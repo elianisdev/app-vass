@@ -1,0 +1,18 @@
+.nav-link {
+  color: $site-color-font;
+
+  &:hover {
+    color: $site-color-primary;
+  }
+
+  &:active {
+    color: $site-color-primary;
+  }
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: $site-color-default;
+  background-color: $site-color-primary;
+  border-radius: 0;
+}
